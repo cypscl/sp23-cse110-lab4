@@ -54,6 +54,8 @@ function discountPrices(prices,discount){
     }
 
     console.log(i);
+    console.log(discountedPrice);
+    console.log(finalPrice);
 
     return discounted;
 }
@@ -74,7 +76,7 @@ Error: discountedPrice is not defined.
 7. ^^^ What will happen at line 14 and why? If the code causes an error, explain why. ^^^
 
 No Error.
-Printed: '0'
+Printed: '150'
 
 8. ^^^ What will this function return? Give a brief explanation. If the code causes an error, explain why. ^^^
 
